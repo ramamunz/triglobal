@@ -53,9 +53,11 @@ section {
   text-transform: uppercase;
   padding-bottom: 3.5rem;
   font-size: 4rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .heading span {
+  font-family: "Courier New", Courier, monospace;
   color: var(--main-color);
   text-transform: uppercase;
 }
@@ -226,6 +228,7 @@ section {
   max-width: 60rem;
 }
 .home .content h3 {
+  font-family: "Courier New", Courier, monospace;
   font-size: 6rem;
   text-transform: uppercase;
   color: #fff;
@@ -410,7 +413,7 @@ section {
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .contact .row form h3 {
@@ -626,6 +629,19 @@ section {
 }
 
 /* MyCSS */
-.catalog{
+.catalog {
   text-align: center;
+}
+
+.share a {
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.share2 a {
+  font-size: large;
+  margin-top: 10px;
+  color: #fff;
+  
 }
